@@ -1,0 +1,16 @@
+/* src/components/RunnerGameStyles.css */
+
+@keyframes pulseGlow {
+  0%, 100% {
+    box-shadow: 0 0 8px #ff69b4;
+    transform: scale(1);
+  }
+  50% {
+    box-shadow: 0 0 20px #ff69b4;
+    transform: scale(1.05);
+  }
+}
+
+.btn-pink.pulse {
+  animation: pulseGlow 2s infinite ease-in-out;
+}

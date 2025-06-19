@@ -6,6 +6,27 @@
   color: white;
 }
 
+.gallery-page.graduation-theme{
+  background: #fdf6f0 !important;
+}
+
+.graduation-theme .image-grid img {
+  width: 300px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(242, 145, 239, 0.6);
+  transition: transform 0.2s ease;
+}
+
+.graduation-theme .image-grid img:hover {
+  transform: scale(1.05);
+  box-shadow:
+    0 0 15px 6px rgba(242, 145, 239, 1),
+    0 0 30px 12px rgba(242, 145, 239, 0.7);
+  cursor: pointer;
+}
+
+
 .image-grid {
   display: flex;
   flex-wrap: wrap;
