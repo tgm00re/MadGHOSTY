@@ -1,0 +1,117 @@
+.gallery-page {
+  position: relative;
+  padding: 2rem;
+  min-height: 100vh;
+  background-color: #1a0a29; /* dark purple */
+  color: white;
+}
+
+.image-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+}
+
+.image-grid img {
+  width: 300px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.6);
+  transition: transform 0.2s ease;
+}
+
+.image-grid img:hover {
+  transform: scale(1.05);
+}
+
+/* Floating decorative emojis/images */
+.floating-decor {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 50px;
+  z-index: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-size: 2rem;
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+.floating-decor.left {
+  left: 10px;
+}
+
+.floating-decor.right {
+  right: 10px;
+}
+
+
+.btn-pink {
+  background-color: #ff69b4 !important; /* hot pink */
+  color: white !important;
+  border: none;
+  font-weight: 600;
+}
+
+.btn-pink:hover,
+.btn-pink:focus,
+.btn-pink:active {
+  background-color: #ff4ea1; /* slightly darker pink */
+  color: white;
+  box-shadow: 0 0 8px #ff69b4;
+}
+
+.image-grid img {
+  width: 300px;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+  margin-bottom: 32px;
+  
+  /* white glowing border effect */
+  box-shadow:
+    0 0 8px 3px rgba(255, 255, 255, 0.8),
+    0 0 15px 6px rgba(255, 255, 255, 0.5);
+  
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.image-grid img:hover {
+  transform: scale(1.05);
+  box-shadow:
+    0 0 15px 6px rgba(255, 255, 255, 1),
+    0 0 30px 12px rgba(255, 255, 255, 0.7);
+  cursor: pointer;
+}
+
+
+
+@keyframes floatUpDown {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+}
+
+.floating-decor > div {
+  animation-name: floatUpDown;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  /* Start with different delays to stagger the animations */
+}
+
+.floating-decor.left > div:nth-child(1) { animation-delay: 0s; }
+.floating-decor.left > div:nth-child(2) { animation-delay: 1s; }
+.floating-decor.left > div:nth-child(3) { animation-delay: 2s; }
+.floating-decor.left > div:nth-child(4) { animation-delay: 3s; }
+
+.floating-decor.right > div:nth-child(1) { animation-delay: 0.5s; }
+.floating-decor.right > div:nth-child(2) { animation-delay: 1.5s; }
+.floating-decor.right > div:nth-child(3) { animation-delay: 2.5s; }
+.floating-decor.right > div:nth-child(4) { animation-delay: 3.5s; }
