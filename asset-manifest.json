@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/MadGHOSTY/static/css/main.f1cf6903.css",
+    "main.js": "/MadGHOSTY/static/js/main.d95fefb5.js",
+    "static/js/453.9d2e5b0c.chunk.js": "/MadGHOSTY/static/js/453.9d2e5b0c.chunk.js",
+    "static/media/jobApplication.png": "/MadGHOSTY/static/media/jobApplication.a5e696eb86d03819dc9c.png",
+    "static/media/graduationImg1.jpg": "/MadGHOSTY/static/media/graduationImg1.e59dd5c9a5bc0b6276f3.jpg",
+    "static/media/halloweenImg2.jpg": "/MadGHOSTY/static/media/halloweenImg2.f02c210243c9f30a4958.jpg",
+    "static/media/halloweenImg1.jpg": "/MadGHOSTY/static/media/halloweenImg1.b7e4f32daae5c55dd78e.jpg",
+    "static/media/halloweenImg4.jpg": "/MadGHOSTY/static/media/halloweenImg4.e8f4998d42239fe8c0fb.jpg",
+    "static/media/graduationImg4.jpg": "/MadGHOSTY/static/media/graduationImg4.7c80872a19303613e488.jpg",
+    "static/media/graduationImg3.jpg": "/MadGHOSTY/static/media/graduationImg3.bef3a4eece211dd27833.jpg",
+    "static/media/halloweenImg3.jpg": "/MadGHOSTY/static/media/halloweenImg3.86220115cc9a79578257.jpg",
+    "static/media/pigglebert-removebg-preview.png": "/MadGHOSTY/static/media/pigglebert-removebg-preview.fa5134a06d64a0cd240b.png",
+    "static/media/graduationImg2.jpg": "/MadGHOSTY/static/media/graduationImg2.c890e2cca8d4b8dcf6e5.jpg",
+    "static/media/halloweenImg6.jpg": "/MadGHOSTY/static/media/halloweenImg6.7525df3727f2016a6132.jpg",
+    "static/media/halloweenImg5.jpg": "/MadGHOSTY/static/media/halloweenImg5.caed20c001c1c65d8317.jpg",
+    "static/media/pj.jpg": "/MadGHOSTY/static/media/pj.463bf04429c248e3a1d5.jpg",
+    "static/media/halloweenImg7.jpg": "/MadGHOSTY/static/media/halloweenImg7.21fc51b62c3a681d39e1.jpg",
+    "static/media/victory.mp3": "/MadGHOSTY/static/media/victory.b612e400c55617d807af.mp3",
+    "static/media/booing.mp3": "/MadGHOSTY/static/media/booing.34daced64141ec62c984.mp3",
+    "static/media/Kroger-logo.jpg": "/MadGHOSTY/static/media/Kroger-logo.ae80700a9c952205d643.jpg",
+    "index.html": "/MadGHOSTY/index.html",
+    "main.f1cf6903.css.map": "/MadGHOSTY/static/css/main.f1cf6903.css.map",
+    "main.d95fefb5.js.map": "/MadGHOSTY/static/js/main.d95fefb5.js.map",
+    "453.9d2e5b0c.chunk.js.map": "/MadGHOSTY/static/js/453.9d2e5b0c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f1cf6903.css",
+    "static/js/main.d95fefb5.js"
+  ]
+}
